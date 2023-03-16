@@ -1,0 +1,213 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #FAF0DD;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+
+}
+
+.box {
+	position: relative;
+	width: 100%;
+	max-width: 1000px;
+	min-height: 1200px;
+	background: white;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	box-shadow: 0 50px 80px;
+	margin: 60px;
+
+}
+.box1{
+	position: relative;
+	background: #52595D;
+	padding: 50px;
+	padding-top: 60px;
+}
+.box2{
+	position: relative;
+	background: white;
+	padding: 50px;
+	padding-top: 60px;
+	font-size: 18px;
+}
+
+
+.profile1{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 25px;
+	border-bottom: 2px solid;
+
+}
+
+.photo {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.photo img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.profile1 h2{
+	color: white;
+	font-size: 32px;
+	margin-top: 25px;
+	text-align: center;
+
+
+}
+
+.profile1 p{
+	font-size: 15px;
+	color: white;
+	text-transform: uppercase;
+	margin-top: 5px;
+}
+
+#contacts {
+	align-items: center;
+	width: 100%;
+}
+
+#contacts h2{
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 24px
+	display:flex;
+}
+
+#contacts table{
+	margin-top: 30px;
+	width: 100%
+}
+#contacts table th{
+	font-size: 25px;
+	text-transform: uppercase;
+	color: white;
+	padding-bottom: 10px;
+}
+
+#contacts table img{
+	height: 30px;
+	align-items: center;
+	text-align: center;
+}
+#contacts td p {
+	font-size: 18px;
+	color: white;
+}
+.education{
+	align-items: center;
+	margin-top: 20px;
+	width: 100%;
+	padding-top: 10px;
+
+}
+
+#education h2{
+	margin-top: 50px;
+	margin-bottom: 15px;
+	text-align: center;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: white;
+	text-shadow: 20px;
+	text-shadow: color: black;
+	border-top: 2px solid; 
+	border-color: black;
+	padding-top: 30px;
+
+}
+#education p{
+	font-size: 18px;
+	color: white;
+	padding-bottom: 10px;
+	margin-top: 10px;
+
+}
+
+#education p span{
+	 font-weight: bold;
+	 font-size: 17px;
+	 color: white;
+	 margin-bottom: 10px;
+}
+
+#skills {
+	font-size: 18px;
+	color: white;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	list-style: none
+
+}
+
+
+#skills h2 {
+	text-align: center;
+	border-top: 2px solid; 
+	border-color: black;
+	padding-top: 30px;
+	margin-bottom: 15px;
+
+}
+#skills ul li{
+	padding-top: 10px;
+
+}
+
+#profile2 p {
+	font-size: 20px;
+
+}
+
+#work1 h2{
+	font-size: 27px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+
+}
+
+#work1 h3{
+	font-size: 22px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+
+#work1 ul li{
+	padding-top: 20px;
+}
+
+#reference h2{
+	padding-top: 40px;
+	padding-bottom: 20px;
+	font-size: 27px;
+}
+
+#reference p{
+	font-size: 18px;
+}
+
+#reference span{
+	font-weight: bold;
+	font-size: 20px;
+}

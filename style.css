@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #00203f;
+    height: 100vh;
+}
+
+#logo-pic {
+    height: 60px;
+    width: 60px;
+    
+    
+    
+}
+
+
+nav {
+    background-color: #00203f;
+    
+    
+}
+
+
+.nav-item {
+    text-transform: uppercase;
+    font-weight: bolder;
+    
+}
+
+.nav-menu {
+    vertical-align: middle;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+    
+ 
+}
+
+.nav-link:hover {
+    color: #D6ED17FF;
+  
+   
+}
+
+.navbar-nav .active a{
+    color: #D6ED17FF;
+}
+
+
+
+#nav-item-dropdown:hover #shop-dropdown {
+    visibility: visible;
+    opacity: 1;
+}
+
+#shop-dropdown {
+    visibility: hidden;
+    opacity: 0;
+    top: 40px;  
+    
+}
+
+#shop-dropdown li a {
+    color: white;
+    text-transform: none;
+    background-color: #00203f;
+    
+
+}
+
+#shop-dropdown li a:hover {
+     color: #D6ED17FF;
+    
+}
+
+#hire-btn {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+    border: solid 2px #D6ED17FF;
+    
+
+}
+
+#hire-btn:hover {
+    background-color: #D6ED17FF;
+    color: #00203FFF;
+    
+    
+}
+
+.navbar-toggler-icon {
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler{
+    border: solid 2px white;
+}
+
+#socmed {
+    /* list-style: none;
+    position: fixed;
+    top: 55%;
+    left: 0;
+    transform: translateY(-50%); */
+    /* padding-top: 70px; */
+    max-width: 150px;
+    margin-left: 0%;
+    margin-top: 60px;
+    /* position: absolute; */
+    
+    
+    
+    
+}
+
+#socmed-area ul li{
+    margin: 10px 0;   
+    
+}
+
+#socmed-area ul li a{
+    text-decoration: none;
+    color: white;
+    height: 60px;
+    display: flex;
+    font-size: 10px;
+    
+    
+    
+    
+}
+
+ul li a #socmed-icon {
+    background: white;
+    color: #00203f;
+    width: 35px;
+    height: 50%;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 23px;
+    
+}
+#socmed-link {
+    width: 0;
+    height: 50%;
+    background: #D6ED17FF;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-left: 0;
+    letter-spacing: 1px;
+    overflow: hidden;
+
+    border-radius: 0 50px 50px 0;
+    transition: 0.5s ease;
+    padding-top: 6px;
+    text-align: center;
+    color: black;
+    
+    
+    
+}
+
+ul li a:hover #socmed-link{
+    width: 85px;
+    
+}
+#name-content h5{
+    color: white;
+    font-weight: 300;
+    margin-top: 75px;
+}
+
+#name-content h4{
+    color: white;
+    font-weight: 300;
+    
+}
+
+#name-content h2{
+    color: white;
+    font-weight: 500;
+    
+}
+
+#name-content h2 span{
+    color: #D6ED17FF;
+    font-weight: bolder;
+    text-shadow: 0 0 0 transparent,
+    0 0 20px #D6ED17FF,
+    0 0 30px #D6ED17FF;
+
+    animation: color 5s ease infinite alternate;
+}
+
+@keyframes color {
+    40%{
+        opacity: 1;
+    }
+    42%{
+        opacity: 0.4;
+    }
+    44%{
+        opacity: 1;
+    }
+    46%{
+        opacity: 0.7;
+    }
+    48%{
+        opacity: 0.3;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    52%{
+        opacity: 0.8;
+    }
+    54%{
+        opacity: 0.5;
+    }
+}
+
+#name-content a{
+    background-color: #D6ED17FF;
+    color: #00203f;
+    font-weight: bold;
+    border-color: #00203f;
+
+}
+
+#name-content a:hover{
+    background-color: #00203f;
+    color: #D6ED17FF;
+    border-color: #D6ED17FF;
+}
+
+.home-icons {
+    height: 250px;
+    
+    overflow: visible;
+	position: relative;
+    background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+
+#hicons {
+    /* visibility: hidden; */
+    height: 250px;
+    width: 350px;
+    animation: change 10s linear infinite; 
+    margin-top: 30px;
+    
+    
+}
+
+
+
+@keyframes change{
+	0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+
+
+
+footer {
+    visibility: hidden;
+}
+
+
+
+#contact-us{
+    margin-top: 50px;
+}
+
+#message-box {
+    width: 100%;
+}
+
+#contact-us h3{
+    text-shadow: 0 0 0 transparent,
+    0 0 20px #D6ED17FF,
+    0 0 30px #D6ED17FF;
+    color: #D6ED17FF;
+    animation: color 5s ease infinite alternate;
+}
+
+@keyframes color {
+    40%{
+        opacity: 1;
+    }
+    42%{
+        opacity: 0.4;
+    }
+    44%{
+        opacity: 1;
+    }
+    46%{
+        opacity: 0.7;
+    }
+    48%{
+        opacity: 0.3;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    52%{
+        opacity: 0.8;
+    }
+    54%{
+        opacity: 0.5;
+    }
+}
+
+#contact-btn {
+    background-color: #00203f;
+    border-color: #00203f;
+}
+
+#register-title{
+    font-weight: bolder;
+}
+
+#register-btn {
+    background-color: #00203f;
+}
+
+#login-btn {
+    background-color: #00203f;
+    border-color: #00203f;
+}
+    
+
+
+
+
+@media screen and (max-width:991px) {
+  
+    #socmed-area {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    #name-content {
+        margin-left: 10%;
+    }
+
+    footer {
+        visibility: visible;
+        background-color: transparent;
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+        border-top: #D6ED17FF solid 1px;
+    }
+
+    #mobile-socmed ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #mobile-socmed ul li {
+        padding: 10px 20px;
+    }
+
+    #mobile-socmed p {
+        color: white;
+        text-align: center;
+        
+    }
+
+    #mobile-socmed-icon i{
+        color: #D6ED17FF;
+        
+        
+    }
+
+    #contact-us label {
+        font-size: 0.7rem;
+    }
+}
+
