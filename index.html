@@ -261,6 +261,176 @@
                            
             </div>
         </div>
+
+        <div class="page hidden" id="regiform">
+            <nav class="navbar navbar-expand-lg p-3">
+                <div class="container">
+                    <a href="#home" class="navbar-brand" onclick="navigate('home')">
+                        <img src="images/logo2.png" id="logo-pic">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse my-auto justify-content-center" id="nav-menu">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                            <li class="nav-item py-1 active mx-2"><a href="#home" class="nav-link" onclick="navigate('home')">Home</a></li>
+                            <li class="nav-item py-1 mx-2"><a href="#about" class="nav-link" onclick="navigate('about')">About</a></li>
+                            <li class="nav-item dropdown py-1 mx-2" id="nav-item-dropdown">
+                                <a href="#" class="nav-link dropdown-toggle pb-2" role="button" data-bs-toggle="dropdown"
+                                    data-bs-target="shop-dropdown">Projects</a>
+                                <ul class="dropdown-menu" id="shop-dropdown">
+                                    <li><a href="#regiform" class="dropdown-item py-2" onclick="navigate('regiform')">Registration Form</a></li>
+                                    <li><a href="#olshop" class="dropdown-item py-3" onclick="navigate('olshop')">Online Shop</a></li>
+                                    <li><a href="#blog" class="dropdown-item py-2" onclick="navigate('blog')">Travel Blogsite</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item py-1 mx-2"><a href="#contact" class="nav-link" onclick="navigate('contact')">Contact</a></li>
+                        </ul>
+                        <div class="ms-auto">
+                            <li><a href="#resume" class="btn justify-content-center ms-auto mx-2" id="hire-btn" onclick="navigate('resume')">
+                                <span>Hire me</span>
+                            </a></li>
+                        </div>
+                    </div>
+                    
+                </div>
+            </nav>
+           
+            <div class="container">
+        
+                <div class="bg-light p-1 mt-3 w-75 mx-auto shadow p-3 mb-5 bg-body rounded" >
+                    <h3 class="text-center text-uppercase pt-3" id="register-title" >Registration Page</h3>
+                    <form action="#">
+                        <fieldset class="p-3">
+                            <legend class="pb-3">Login Details<span class="text-danger fs-6"> (all fields are required)</span></legend>
+                            <div class="row my-3">
+                                <div class="col-3">
+                                    <label for="email-address" class="form-label pt-2">Email Address:</label>
+                                </div>
+                                <div class="col">
+                                    <input type="email" name="email-address" id="email-address" class="form-control" required>
+                                </div>  
+                                
+                            </div>
+                            <div class="row my-3">
+                                <div class="col-3">
+                                    <label for="password" class="form-label pt-2">Password:</label>
+                                </div>
+                                <div class="col">
+                                    <input type="password" name="password" id="password" class="form-control" required>
+                                </div>  
+                                
+                            </div>
+                            <div class="row my-3">
+                                <div class="col-3">
+                                    <label for="confirm-password" class="form-label pt-2">Confirm Password:</label>
+                                </div>
+                                <div class="col">
+                                    <input type="password" name="confirm-password" id="confirm-password" class="form-control" required>
+                                </div>  
+                                
+                            </div>        
+                        </fieldset>
+        
+                        <fieldset class="p-3">
+                            <legend class="pb-3">User Details</legend>
+                            <div class="row my-3">
+                                <div class="col-3">
+                                    <label for="photos" class="form-label pt-2">Photos</label>
+                                </div>
+                                <div class="col">
+                                    <input type="file" name="photos" id="photos" accept=".png,.jpeg,.jpg" multiple class="form-control">
+                                </div>  
+                                
+                            </div>
+                            <div class="row my-3">
+                                <div class="col-3">
+                                    <label for="password" class="form-label pt-2">First Name:</label>
+                                </div>
+                                <div class="col">
+                                    <input type="text" name="first-name" id="first-name" class="form-control">
+                                </div>  
+                                
+                            </div>
+                            <div class="row my-3">
+                                <div class="col-3">
+                                    <label for="last-name" class="form-label pt-2">Last Name:</label>
+                                </div>
+                                <div class="col">
+                                    <input type="text" name="last-name" id="last-name" class="form-control">
+                                </div>  
+                                
+                            </div>
+                            <div class="row my-3">
+                                <div class="col-3">
+                                    <label for="age" class="form-label pt-2">Age:</label>
+                                </div>
+                                <div class="col">
+                                    <input type="number" name="age" id="age" class="form-control">
+                                </div>  
+                                
+                            </div> 
+                            <div class="row my-3">
+                                <div class="col-3">
+                                    <label for="birthday" class="form-label pt-2">Birthday:</label>
+                                </div>
+                                <div class="col">
+                                    <input type="date" name="birthday" id="birthday" class="form-control">
+                                </div>  
+                                
+                            </div>  
+                            <div class="row my-3">
+                                <div class="col-3">
+                                    <label for="sex" class="form-label pt-2">Sex:</label>
+                                </div>
+                                <div class="col my-2">
+                                    <label for="male" class="pe-2">Male</label>
+                                    <input type="radio" name="sex" id="male" checked>
+                                    <label for="female" class="ps-4 pe-2">Female</label>
+                                    <input type="radio" name="sex" id="female">
+                                    
+                                </div>  
+                                
+                            </div>   
+                            <div class="row my-3">
+                                <div class="col-3">
+                                    <label for="device" class="form-label pt-2">Device Used:</label>
+                                </div>
+                                <div class="col">
+                                    <select name="device" id="device" class="form-select">
+                                        <option value="IOS">IOS</option>
+                                        <option value="Android">Android</option>
+                                        <option value="Windows" selected>Windows</option>
+                                    </select>
+                                </div>  
+                                
+                            </div>
+                            <div class="row my-5">
+                                <div class="col">
+                                    <input type="checkbox" name="condition" id="accept" required>
+                                    <label for="accept" class="ps-3">I accept the terms & conditions</label>
+                                </div>
+                                
+                                
+                            </div>  
+                            <div class="row">
+                                <div class="col">
+                                    <input type="submit" value="Submit" formaction="index.html" name="register" class="btn btn-primary" id="register-btn">
+                                    <p class="pt-2 text-dark">Already have an account?<a href="login.html">Login Here!</a></p>
+                                </div>
+                                
+                                
+                            </div>   
+                        </fieldset>
+
+                    </form>
+                    
+                </div>
+
+            </div>
+        
+        
+        </div>
            
 
 
